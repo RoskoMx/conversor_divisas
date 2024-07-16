@@ -21,34 +21,28 @@ Como está en un bucle, nos pide si queremos hacer otra conversión. Podemos pon
 
 El programa no compila e inmediatamente muestra un mensaje de error que nos saca del sistema (debemos tratar esa opción):
 ![Error](images/6.png)
-
-Tenemos considerado el caso donde el usuario no ingresa un valor numérico válido:
 ![Validation](images/7.png)
 
+Tenemos considerado el caso donde el usuario no ingresa un valor numérico válido:
+![Validation2](images/8.png)
 
 
-Ingresamos un valor fuera del rango:
-![Error2](images/8.png)
 
+Ingresamos un valor fuera del rango en la segunda elección:
+![Error2](images/9.png)
 
+El proceso se repite y finaliza exitosamnte:
+![Exito](images/10.png)
 						
 ## ✔️ Requisitos
 Java JDK 8 o superior
-Clave de API válida para la API de tipo de cambio (reemplazar YOUR-API-KEY en el código)
-Instrucciones de Uso
-Ejecuta el programa desde tu entorno de desarrollo o terminal.
-Sigue las instrucciones en pantalla para seleccionar la conversión deseada.
-Se mostrará el resultado de la conversión en la consola.
-Dependencias
-calcular.buscarMoneda: Clase que utiliza la API de tipo de cambio para buscar las tasas de conversión.
-calcular.calcularMoneda: Clase que realiza los cálculos de conversión basados en las tasas obtenidas.
-modelo.Moneda: Clase que representa una moneda y su valor en dólares estadounidenses.
-Configuración
-Reemplaza YOUR-API-KEY en el código por tu clave de API válida para la API de tipo de cambio.
+API Exchangerate
+
 
 ## 👨‍💻 Limitaciones y Consideraciones
 El programa puede mostrar errores si la clave de API no es válida o si la API restringe el acceso.
 Las tasas de cambio obtenidas de la API pueden no estar actualizadas en tiempo real.
+Esta es una primer versión que cumple el objetivo de trabajar con peticiones API rest. Se mejorará el proyecto.
 
 ## 🏰 Sobre el Autor
 Guz Mexía, mexicano radicado en Francia que busca dar un giro en su carrera profesional aprendiendo sobre tecnología. 
